@@ -27,3 +27,6 @@ CREATE TABLE vine_table (
   vine TEXT,
   verified_purchase TEXT
 );
+
+-- Read customers table
+SELECT * FROM vine_table;
