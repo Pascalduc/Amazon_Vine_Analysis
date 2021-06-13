@@ -2,7 +2,7 @@
 Module 16
 
 ## Overview of the project:
-The purpose of this project was to analyze Amazon reviews written by paid members of the Vine program and compare them to reviews written by non-members. This will tell us know if the program introduces a bias in the number of five stars awarded.
+The purpose of this project was to analyze Amazon reviews written by paid members of the Vine program and compare them to reviews written by non-members. This will tell us if the program introduces a bias in the number of five stars awarded.
 
 ## Results:
 •	For this project we used `Spark` and `Google Colaboratory` to analyze camera data from `Amazon S3 cloud storage`. We generated four new `DataFrames` from the main one using the `df.select`, `groupby`, `agg` and `withColumnRenamed` functions to get specific columns matching our `Postgres SQL` tables. We then sent the data to Postgres SQL.
