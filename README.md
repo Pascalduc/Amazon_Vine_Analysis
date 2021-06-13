@@ -8,6 +8,7 @@ The purpose of this project was to analyze Amazon reviews written by paid member
 •	For this project we used `Spark` and `Google Colaboratory` to analyze camera data from `Amazon S3 cloud storage`. We generated four new `DataFrames` from the main one using the `df.select`, `groupby`, `agg` and `withColumnRenamed` functions to get specific columns matching our `Postgres SQL` tables. We then sent the data to Postgres SQL.
 
 
+### Vine Table
 ![Vine](Resources/Vine.png)
 
 •	For further analysis of the Vine table, we first recreated the table with the `select` function in `CoLab`.
