@@ -19,7 +19,7 @@ The purpose of this project was to analyze Amazon reviews written by paid member
 
 
 
-•	Next, we filtered the data to include only those with at least twenty total votes then filtered for a ratio of `helpful votes/total votes` greater or equal to 50%
+•	Next, we filtered the data to include only those with at least twenty total votes then filtered for a ratio of `helpful votes/total votes` greater or equal to 50% to exclude non-relevant reviews.
 
 
 ![filter](Resources/filter.png)
